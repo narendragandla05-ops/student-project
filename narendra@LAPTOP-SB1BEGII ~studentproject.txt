@@ -1,0 +1,399 @@
+narendra@LAPTOP-SB1BEGII:~$ mkdir studentproject
+narendra@LAPTOP-SB1BEGII:~$ cd
+narendra@LAPTOP-SB1BEGII:~$ cd studentproject
+narendra@LAPTOP-SB1BEGII:~/studentproject$ touch students.txt
+narendra@LAPTOP-SB1BEGII:~/studentproject$ nano project.sh
+narendra@LAPTOP-SB1BEGII:~/studentproject$ chmod +x project.sh
+narendra@LAPTOP-SB1BEGII:~/studentproject$ ./project.sh
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+1
+Enter Student ID:
+24x
+Enter Student Name:
+tharun
+Enter Course:
+cse
+Student Added Successfully!
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+101 | Rahul | Linux
+102 | Priya | Networking
+103Invalid Choice
+==============================
+ | Arun | Python Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+
+Invalid Choice
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+^C
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/narendra/studentproject/.git/
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git add .
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git commit -m "Student management project"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <narendra@LAPTOP-SB1BEGII.localdomain>) not allowed
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote add origin https://github.com/yourname/student-project.git
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git branch -M main
+git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/yourname/student-project.git'
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git branch -M main
+git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/yourname/student-project.git'
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote add origin https://github.com/narendragandla05-ops/student-project.git
+
+error: remote origin already exists.
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git branch -M main
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/yourname/student-project.git'
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote -v
+origin  https://github.com/yourname/student-project.git (fetch)
+origin  https://github.com/yourname/student-project.git (push)
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote add origin https://github.com/narendragandla05-ops/student-project.git
+error: remote origin already exists.
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote -v
+origin  https://github.com/yourname/student-project.git (fetch)
+origin  https://github.com/yourname/student-project.git (push)
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote remove origin
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote -v
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote add origin https://github.com/narendragandla05-ops/student-project.git
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote -v
+origin  https://github.com/narendragandla05-ops/student-project.git (fetch)
+origin  https://github.com/narendragandla05-ops/student-project.git (push)
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git branch -M main
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/narendragandla05-ops/student-project.git'
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote remove origin
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote add origin https://github.com/narendragandla05-ops/student-project
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git remote -v
+origin  https://github.com/narendragandla05-ops/student-project (fetch)
+origin  https://github.com/narendragandla05-ops/student-project (push)
+narendra@LAPTOP-SB1BEGII:~/studentproject$ git branch -M main
+git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/narendragandla05-ops/student-project'
+narendra@LAPTOP-SB1BEGII:~/studentproject$ cd ..
+narendra@LAPTOP-SB1BEGII:~$ cat progect.sh
+cat: progect.sh: No such file or directory
+narendra@LAPTOP-SB1BEGII:~$ cat project.sh
+cat: project.sh: No such file or directory
+narendra@LAPTOP-SB1BEGII:~$ cat .project.sh
+cat: .project.sh: No such file or directory
+narendra@LAPTOP-SB1BEGII:~$ ls
+Training  fruits.txt  linuxpratice  office      reports       student2_backup.txt  students  tharun
+backup    hotel       name.txt      practice    secure.txt    student_management   sunny     tharun.txt
+backups   kumar       notes.txt     readme.txt  student1.txt  studentproject       text.txt
+narendra@LAPTOP-SB1BEGII:~$ cd studentproject
+narendra@LAPTOP-SB1BEGII:~/studentproject$ cat ls
+cat: ls: No such file or directory
+narendra@LAPTOP-SB1BEGII:~/studentproject$ ls cat
+ls: cannot access 'cat': No such file or directory
+narendra@LAPTOP-SB1BEGII:~/studentproject$ ls
+project.sh  students.txt
+narendra@LAPTOP-SB1BEGII:~/studentproject$ cat project.sh
+#!/bin/bash
+
+FILE="students.txt"
+
+while true
+do
+    echo "=============================="
+    echo " Student Record Management "
+    echo "=============================="
+    echo "1. Add Student"
+    echo "2. View Students"
+    echo "3. Search Student"
+    echo "4. Delete Student"
+    echo "5. Update Student"
+    echo "6. Exit"
+    echo "Enter choice:"
+    read choice
+
+    case $choice in
+
+    1)
+        echo "Enter Student ID:"
+        read id
+
+        echo "Enter Student Name:"
+        read name
+
+        echo "Enter Course:"
+        read course
+
+        echo "$id | $name | $course" >> $FILE
+
+        echo "Student Added Successfully!"
+        ;;
+
+    2)
+        echo "Student Records:"
+        cat $FILE
+        ;;
+
+    3)
+        echo "Enter Student ID to Search:"
+        read sid
+
+        grep "^$sid" $FILE
+
+        if [ $? -ne 0 ]
+        then
+            echo "Record Not Found"
+        fi
+        ;;
+
+    4)
+        echo "Enter Student ID to Delete:"
+        read did
+
+        grep -v "^$did" $FILE > temp.txt
+        mv temp.txt $FILE
+
+        echo "Record Deleted"
+        ;;
+
+    5)
+        echo "Enter Student ID to Update:"
+        read uid
+
+        grep -v "^$uid" $FILE > temp.txt
+
+        echo "Enter New Name:"
+        read newname
+
+        echo "Enter New Course:"
+        read newcourse
+
+        echo "$uid | $newname | $newcourse" >> temp.txt
+
+        mv temp.txt $FILE
+
+        echo "Record Updated"
+        ;;
+
+    6)
+        echo "Exiting Program..."
+        break
+        ;;
+
+    *)
+        echo "Invalid Choice"
+        ;;
+    esac
+
+done
+narendra@LAPTOP-SB1BEGII:~/studentproject$ ./project.sh
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+2
+Student Records:
+24x | tharun | cse
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+5
+Enter Student ID to Update:
+12
+Enter New Name:
+narendra
+Enter New Course:
+aiml
+Record Updated
+==============================
+ Student Record Management
+==============================
+1. Add Student
+2. View Students
+3. Search Student
+4. Delete Student
+5. Update Student
+6. Exit
+Enter choice:
+6
+Exiting Program...
+narendra@LAPTOP-SB1BEGII:~/studentproject$
